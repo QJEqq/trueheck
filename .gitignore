@@ -1,0 +1,80 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Static files (if collected)
+staticfiles/
+collected_static/
+
+# Database migrations (optional - иногда их коммитят)
+# !/apps/*/migrations/
+# /apps/*/migrations/*.py
+# !/apps/*/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+build/
+dist/
+
+# Celery
+celerybeat-schedule
+
+# Project specific
+uploads/
+temp/
+tmp/
+
+# Django production
+*.egg-info/
+.installed.cfg
+
+# IPython
+profile_default/
+ipython_config.py
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
