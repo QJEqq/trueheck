@@ -7,7 +7,7 @@ from django.db.models import Q
 
 
 class IndexView(TemplateView):
-    template_name = "heck/base.html"
+    template_name = "main/base.html"
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs) 
